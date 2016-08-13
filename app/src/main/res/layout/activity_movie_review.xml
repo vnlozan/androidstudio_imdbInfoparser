@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.v.courseworkparser.movieReview"
+    android:nestedScrollingEnabled="true"
+    android:weightSum="1">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView"
+        android:layout_weight="1.03" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="MovieName"
+                    android:id="@+id/movieTextView" />
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="300dp"
+                    android:src="@mipmap/ic_launcher"
+                    android:id="@+id/posterImageView" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="movieYear"
+                    android:id="@+id/yearTextView" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="movieGenre"
+                    android:id="@+id/genreTextView" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="movieRuntime"
+                    android:id="@+id/runtimeTextView" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="movieCountry"
+                    android:id="@+id/countryTextView" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="movieRating"
+                    android:id="@+id/ratingTextView"
+                    android:textColor="#c81c1c" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="movieVotes"
+                    android:id="@+id/votesTextView"
+                    android:textColor="#d50707" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="movieAwards"
+                    android:id="@+id/awardsTextView" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="movieDirector"
+                    android:id="@+id/directorTextView" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="movieWriter"
+                    android:id="@+id/writerTextView" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="movieActors"
+                    android:id="@+id/actorsTextView" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="moviePlot"
+                    android:id="@+id/plotTextView" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="movieId"
+                    android:id="@+id/idTextView"
+                    android:clickable="true"
+                    android:textColor="#8f97ea" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

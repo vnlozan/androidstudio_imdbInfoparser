@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ImDB Movie Finder</string>
+    <string name="title_activity_view">ImDB Movie Finder: Movie Info</string>
+</resources>
